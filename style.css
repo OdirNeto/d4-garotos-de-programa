@@ -30,6 +30,23 @@ h2 {
     font-weight: normal;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d98b8b;
+}
+
 main {
     max-width: 1100px;
     margin: 0 auto;
@@ -47,11 +64,24 @@ main {
     margin-bottom: 25px;
 }
 
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid brown;
+    border-radius: 6px;
+    color: azure;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: brown;
+}
+
 #box {
     display: flex;
     gap: 25px;
     margin-top: 45px;
-    align-items: stretc;
+    align-items: stretch;
 }
 
 .caixa {
@@ -84,6 +114,11 @@ span {
     gap: 12px;
 }
 
+.servicos article {
+    padding: 15px;
+    border-left: 3px solid brown;
+    background-color: #181818;
+}
 
 .servicos h4 {
     margin: 0 0 5px;
